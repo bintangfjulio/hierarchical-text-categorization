@@ -128,6 +128,34 @@ Configuration can be managed via:
 3. **Use caching**: Data preprocessing is cached after first run
 4. **Early stopping**: Enabled by default to prevent overfitting
 
+### Testing
+
+```bash
+# Run tests (TODO: add tests)
+pytest tests/
+
+# Type checking
+mypy .
+
+# Code formatting
+black .
+
+# Linting
+flake8 .
+```
+
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@misc{hierarchical-text-categorization,
+  title={Fine-tune Deep Learning for Short Text Hierarchical Extra Large Categorization},
+  author={Bintang Fajar Julio},
+  year={2025}
+}
+```
+
 ## License
 
 MIT License
